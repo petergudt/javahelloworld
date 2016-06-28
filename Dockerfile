@@ -4,4 +4,4 @@ COPY HelloWorld.java /
 RUN javac HelloWorld.java
 RUN apt-get update && apt-get install -v vim
 
-ENTRYPOINT ["java", "HellWorld"]
+ENTRYPOINT ["java", "HelloWorld"]
